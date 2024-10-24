@@ -1,6 +1,6 @@
 # Econometric Data Retrieval from FRED
 
-
+Colab: 
 
 This repository demonstrates the steps to pull econometric data from the Federal Reserve Economic Data (FRED) API. It includes Python scripts and markdown tables detailing various macroeconomic variables, their transformations, and methodologies for aggregating data to a consistent annual level.
 
