@@ -3,7 +3,7 @@
 This repository demonstrates the steps to pull econometric data from the Federal Reserve Economic Data (FRED) API. It includes Python scripts and markdown tables detailing various macroeconomic variables, their transformations, and methodologies for aggregating data to a consistent annual level.
 
 
-**| Variable Number | Variable Name at Level                                    | Variable Name at Transformation         | Need to Perform Transformation | Calculation of Transformation                                | FRED Availability Level   | Interpolation/Extrapolation/Aggregation |
+| Variable Number | Variable Name at Level                                    | Variable Name at Transformation         | Need to Perform Transformation | Calculation of Transformation                                | FRED Availability Level   | Interpolation/Extrapolation/Aggregation |
 |------------------|----------------------------------------------------------|----------------------------------------|-------------------------------|------------------------------------------------------------|--------------------------|----------------------------------------|
 | 1                | Real Gross Domestic Product (GDPC1)                      | GDP Growth Rate                        | Y                             | (Current GDP - Previous GDP) / Previous GDP * 100          | Quarterly                | Aggregation (Annual average)          |
 | 2                | Unemployment Rate (UNRATE)                               | N/A                                    | N                             | N/A                                                        | Monthly                  | Aggregation (Annual average)          |
@@ -31,7 +31,7 @@ This repository demonstrates the steps to pull econometric data from the Federal
 | 24               | Central Bank Balance Sheet Size (TGD)                    | N/A                                    | N                             | N/A                                                        | Weekly                   | Aggregation (Annual average)          |
 | 25               | Money Supply (M2SL)                                     | N/A                                    | N                             | N/A                                                        | Monthly                  | Aggregation (Annual average)          |
 | 26               | Reserve Requirements                                      | N/A                                    | N                             | N/A                                                        | Not typically available   | N/A                                   |
-**
+
 
 # Explanation of the Code
 
