@@ -1,4 +1,4 @@
-# Econometric Data Retrieval from FRED by Ania Supady
+# Econometric Data Retrieval from FRED, by Ania Supady
 
 Ania Supady's Google Colab: https://github.com/AniaSupady/FRED/blob/main/getting_macro_data_from_FRED.ipynb
 
